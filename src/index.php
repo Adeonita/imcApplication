@@ -1,4 +1,3 @@
 <?php
-  require_once("./serverApplication.php");
-
+  require_once("./client/clientApplication.php");
 ?>
