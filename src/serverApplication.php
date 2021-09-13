@@ -1,13 +1,13 @@
 <?php
   class Imc {
-    private function getImc($weigth, $height)
+    private function getImc($weight, $height)
     {
-      return number_format($weigth / pow($height,2), 2);
+      return number_format($weight / pow($height,2), 2);
     }
 
-    public function getClassificationIMC($weigth, $height)
+    public function getClassificationIMC($weight, $height)
     {
-      $imc = $this->getImc($weigth, $height);
+      $imc = $this->getImc($weight, $height);
 
       if ($imc < 18.5) {
         return $this->getMessage($imc, "abaixo do peso");
