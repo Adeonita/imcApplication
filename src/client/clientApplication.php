@@ -20,7 +20,7 @@
             <input type="text" class="form-control" name="weight" placeholder="Insira seu peso(kg)">
           </div>
           <div class="mt-3 mb-3">
-            <label for="height" class="form-label">Peso</label>
+            <label for="height" class="form-label">Altura</label>
             <input type="text" class="form-control" name="height" placeholder="Insira sua altura(m)">
           </div>
           <div class="col-auto">
